@@ -3,28 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Mitiksha Devganiya | Portfolio</title>
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Hello, I am a Web Developer</h1>
-    <p>Front-end Developer | Designer</p>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I create clean and responsive websites. Passionate about web design and coding.</p>
-  </section>
+<!-- HEADER -->
+<header>
+  <h2 class="logo">Mitiksha</h2>
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+  <nav id="nav">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <section id="portfolio">
-    <h2>My Projects</h2>
-    <p>Project screenshots or descriptions go here</p>
-  </section>
+<!-- HERO -->
+<section class="hero">
+  <h1>Hello, I'm <span>Mitiksha Devganiya</span></h1>
+  <p class="typing"></p>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: yourmail@example.com</p>
-  </section>
+  <div class="buttons">
+    <a href="#projects" class="btn">View Work</a>
+    <a href="#" class="btn-outline">Download CV</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="glass" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>I build modern, responsive, and interactive web experiences with a focus on performance and design.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" data-aos="fade-up">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">Git</div>
+    <div class="skill">Responsive UI</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" data-aos="fade-up">
+  <h2>Projects</h2>
+  <div class="projects-container">
+
+    <div class="card" data-aos="zoom-in">
+      <h3>Portfolio Website</h3>
+      <p>Modern animated portfolio with glass UI.</p>
+      <a href="#">Live</a>
+      <a href="#">GitHub</a>
+    </div>
+
+    <div class="card" data-aos="zoom-in" data-aos-delay="100">
+      <h3>Landing Page</h3>
+      <p>High-converting UI design.</p>
+      <a href="#">Live</a>
+      <a href="#">GitHub</a>
+    </div>
+
+    <div class="card" data-aos="zoom-in" data-aos-delay="200">
+      <h3>JS App</h3>
+      <p>Dynamic interactive app.</p>
+      <a href="#">Live</a>
+      <a href="#">GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="glass" data-aos="fade-up">
+  <h2>Contact</h2>
+  <p>Email: mitiksha@email.com</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Mitiksha Devganiya</p>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
